@@ -182,6 +182,7 @@ def next_page_url():
 print main_page_url()
 print next_page_url()
 
+#3) logger封装函数
 import time
 def logger(fn):
     @wraps(fn)
